@@ -1,0 +1,17 @@
+body{
+    background-color: blueviolet;
+    text-align: center;
+    color: aliceblue;
+}
+button {
+    font-size: 20px;
+    font-family: sans-serif;
+    border-radius: 10px;
+    background: red;
+    color: rgb(255, 255, 255);
+}
+
+button:hover {
+    font-size: 25px;
+    background: rgb(138, 4, 4);
+}
