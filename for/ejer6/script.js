@@ -24,3 +24,15 @@ function promedio() {
     alert(`notas: ${array}`)
     alert(`el promedio final: ${promedioFinal}`)
 }
+
+
+
+let N = parseInt(prompt('ingresar un limitante'));
+let array = [];
+
+for(let i = 1; i <= N; i ++) {
+    let valores = parseInt(prompt('Ingresar tus valores'));
+    array.push(valores);
+}
+alert(array);
+
